@@ -1,4 +1,4 @@
-package thread.synchronization.lock_and_condition.reentrant_lock;
+package os.thread.synchronization.wait_and_notify.wait_and_notify;
 
 public class Customer implements Runnable{
     String name;
@@ -13,6 +13,8 @@ public class Customer implements Runnable{
 
     public void buy(){
         stroage.remove(item);
+        System.out.printf("%s가 %s를 구매했습니다.\n", name, item);
+
     }
 
     @Override

@@ -1,4 +1,4 @@
-package thread.synchronization.wait_and_notify.synchronized_keward;
+package os.thread.synchronization.wait_and_notify.synchronized_keward;
 
 import java.util.ArrayList;
 

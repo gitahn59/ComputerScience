@@ -1,4 +1,4 @@
-package thread.synchronization.wait_and_notify.wait_and_notify;
+package os.thread.synchronization.wait_and_notify.synchronized_keward;
 
 public class Customer implements Runnable{
     String name;
@@ -12,9 +12,9 @@ public class Customer implements Runnable{
     }
 
     public void buy(){
-        stroage.remove(item);
-        System.out.printf("%s가 %s를 구매했습니다.\n", name, item);
-
+        if(stroage.remove(item)){
+            System.out.printf("%s가 %s를 구매했습니다.\n", name, item);
+        }
     }
 
     @Override

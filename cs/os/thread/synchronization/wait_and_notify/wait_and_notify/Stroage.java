@@ -1,4 +1,4 @@
-package thread.synchronization.wait_and_notify.wait_and_notify;
+package os.thread.synchronization.wait_and_notify.wait_and_notify;
 
 import java.util.ArrayList;
 

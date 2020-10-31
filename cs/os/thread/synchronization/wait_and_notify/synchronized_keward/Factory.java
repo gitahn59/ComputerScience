@@ -1,4 +1,4 @@
-package thread.synchronization.wait_and_notify.wait_and_notify;
+package os.thread.synchronization.wait_and_notify.synchronized_keward;
 
 public class Factory implements Runnable{
     public Factory(Stroage stroage) {

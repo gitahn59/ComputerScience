@@ -1,4 +1,4 @@
-package thread.synchronization.lock_and_condition.reentrant_lock;
+package os.thread.synchronization.lock_and_condition.reentrant_lock;
 
 import java.util.ArrayList;
 import java.util.concurrent.locks.Condition;

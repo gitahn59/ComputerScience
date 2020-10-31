@@ -1,4 +1,4 @@
-package thread.synchronization.lock_and_condition.reentrant_lock;
+package os.thread.synchronization.lock_and_condition.reentrant_lock;
 
 public class Factory implements Runnable{
     public Factory(Stroage stroage) {

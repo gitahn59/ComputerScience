@@ -1,6 +1,4 @@
-package thread.synchronization.synchronized_keward;
-
-import java.io.IOException;
+package os.thread.synchronization.synchronized_keward;
 
 public class main {
     public static void main(String args[]) {

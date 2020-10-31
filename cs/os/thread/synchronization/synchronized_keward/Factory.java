@@ -1,4 +1,4 @@
-package thread.synchronization.synchronized_keward;
+package os.thread.synchronization.synchronized_keward;
 
 public class Factory {
     int count = 10;

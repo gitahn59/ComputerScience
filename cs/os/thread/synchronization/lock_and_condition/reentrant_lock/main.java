@@ -1,4 +1,4 @@
-package thread.synchronization.lock_and_condition.reentrant_lock;
+package os.thread.synchronization.lock_and_condition.reentrant_lock;
 
 public class main {
     public static void main(String args[]) {

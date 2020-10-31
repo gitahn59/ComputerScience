@@ -1,4 +1,4 @@
-package thread.synchronization.synchronized_keward;
+package os.thread.synchronization.synchronized_keward;
 
 public class Customer implements Runnable{
     String name;
